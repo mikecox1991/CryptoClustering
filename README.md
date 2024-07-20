@@ -6,7 +6,7 @@ PREPARE THE DATA
 ---------------------------------------------------------------------------------------------------------------------------
 We imported the csv into the project under market_data_df and printed out the following dataframe:
 
-![Alt text](image_clustering/intialdataframe.PNG)
+![Alt text](images_clustering/intialdataframe.PNG)
 
 After we describe() the data, then we started to transform the data. We used StandardScaler from Sklearn preprocessing 
 library and hit market_data_df with .fit_transform() and created a scaled data frame of market_data_scaled. We then take
