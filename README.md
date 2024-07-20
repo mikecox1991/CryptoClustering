@@ -6,14 +6,14 @@ PREPARE THE DATA
 ---------------------------------------------------------------------------------------------------------------------------
 We imported the csv into the project under market_data_df and printed out the following dataframe:
 
-![Alt text](intialdataframe.PNG)
+![Alt text](image_clustering\intialdataframe.PNG)
 
 After we describe() the data, then we started to transform the data. We used StandardScaler from Sklearn preprocessing 
 library and hit market_data_df with .fit_transform() and created a scaled data frame of market_data_scaled. We then take
 the index from the market_data_df, and bring that to the market_data_scaled and we will use this for our machine leanring 
 models. 
 
-![Alt text](scaleddataframe.PNG) C:\Users\Mikey\Documents\prophet-challenge\images_clustering\scaleddataframe.PNG
+![Alt text](scaleddataframe.PNG) 
 
 FIND THE BEST VALUE FOR K USING THE ORIGNIAL SCALED DATAFRAME
 ---------------------------------------------------------------------------------------------------------------------------
